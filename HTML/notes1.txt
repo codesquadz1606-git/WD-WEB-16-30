@@ -1,0 +1,37 @@
+How to create the HTML file?
+For html file we have to use .html extention
+filename.html
+
+Why do we use meta tags in HTML?
+1. Meta is used for encoding material to browser.
+2. For SEO
+3. FOr crreating responsive design.
+
+In HTML if anything is written in <> is known as tag.
+
+Heading Tags : 6 types
+h1 to h6
+where h1 is largest & h6 is smallest
+
+Break Tags : br & hr
+br : line Break
+hr : horizontal line
+
+What is Attribute?
+Attribute is a property that enhance the functionality of a tag.
+<tagname attribute=value .........>
+
+What is Media Tag?
+Media tag means display of jpeg/png/svg,mp3 & mp4 files is known as Media Tags
+: img 
+    src: here we have give the path of a file.
+    alt: It is alternative text displays when their is error in path.
+: audio 
+    src : here we will give the path of the file.
+    controls(important) : it is important to attach in a tag.
+: video
+    src
+    controls
+
+
+
