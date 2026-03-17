@@ -32,6 +32,3 @@ Media tag means display of jpeg/png/svg,mp3 & mp4 files is known as Media Tags
 : video
     src
     controls
-
-
-

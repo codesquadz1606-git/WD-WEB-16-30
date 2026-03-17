@@ -1,0 +1,18 @@
+What is List?
+List are of two types:
+1. Ordered List 
+    Ordered list is denoted by ol tag 
+    Ol tag has 5 types : 1,I,i,A,a
+    OL tag is a parent tag & whereas li tag is the child tag
+
+2. Unordered List
+    Unordered list is dnoted by ul tag
+    UL tag has three types : square, circle, disc
+    UL tag is a parent tag & whereas li tag is the child tag
+
+What is Linking?
+It means linking a url or a internal page.
+a tag helps us to link a page.
+a tag stands for anchor tag.
+
+to open any link on a new tab we will use target attribute and _blank value.
