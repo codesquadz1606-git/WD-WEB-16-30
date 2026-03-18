@@ -1,0 +1,17 @@
+What is Table in HTML?
+Table consists of rows & columns.
+Where we display data in tabular format.
+
+table tag 
+    tr tag (table row)
+        td/th(table data / table head)
+
+td & th : Both are used to define the column. but the diffrence is th is in bold & center align, whereas td is in normal form.
+
+: border = "Adds the border"
+: cellspacing = Space b/w outer cell & inner cell
+
+:cellpadding = Space b/w cell & content
+
+Column Merge : Colspan (horizontal merge)
+Row Merge : Rowspan (vertical merge)
