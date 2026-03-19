@@ -1,0 +1,9 @@
+What is form?
+In form we extract data of the user.
+
+form tag
+    label,input,select , etc.....
+
+What is inline & block tag?
+Inline tag means it contain the space according to the content.
+Block tag means it contain the whole row space , content doesn't matter.
