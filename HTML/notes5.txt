@@ -1,0 +1,10 @@
+Semantic tags
+b tag
+u tag
+i tag
+strong tag
+pre tag
+sup tag
+sub tag
+
+dl(description list) --> dt(description title) --> dd(description defination)
