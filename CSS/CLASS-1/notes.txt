@@ -1,0 +1,12 @@
+CSS : Cascading StyleSheet
+.css extention 
+
+Their are three types of CSS:
+--> Inline CSS 
+--> Internal CSS
+--> External CSS : Here we have to build a seperate file for CSS.
+
+../ is used go backward
+
+Priority of CSS
+Inline CSS < Internal CSS < External CSS
