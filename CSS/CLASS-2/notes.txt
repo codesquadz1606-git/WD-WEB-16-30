@@ -1,0 +1,25 @@
+Selectors of CSS
+4 Types:
+1. id is denoted by # and is a symbol of unique elements
+2. class is denoted by . and is a symbol of common styling
+3. tagname called by itself, here styling will be applied to all the named tags.
+4. universal is denoted * and used for whole body.
+
+What is border?
+border-width
+border-style
+border-color
+
+border-radius
+
+What is Box Model?
+Padding means spacee between border & content
+Margin means space outside the border
+
+What is positions?
+5 Types:
+Static (Default)
+Absolute : In this it will move from its parent and leave his own space.
+Relative : In this it will move from its own space.
+Fixed : In this it will be fixed at one place and leave his space.
+Sticky
