@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+    .box{
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        
+
+        /* transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out; */
+        
+        /* Shorthand */
+        transition: all 2s ease-in-out;
+        /* transition-delay: 3s; */
+    }
+
+    /* pseudo class */
+    .box:hover{
+        background-color: blue;
+        border-radius:10px;
+        /* transform: rotate(-75deg); */
+        /* transform: scale(1.0); */
+        /* transform: skew(-75deg); */
+    }
+
+    .con{
+        width: 200px;
+        height: 200px;
+    }
+
+    #con-1{
+        background-color: red;
+    }
+    #con-2{
+        background-color: green;
+    }
+    #con-3{
+        background-color: blue;
+    }
+
+    .container{
+        display: flex;
+        /* gap,justify-content */
+
+        gap: 50px;
+        /* justify-content: center; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row-reverse; */
+
+        flex-wrap:wrap;
+    }
+</style>
+<body>
+    <div class="box"></div>
+
+    <!-- .con#con-$*3 -->
+    <!-- <div class="container">
+        <div class="con" id="con-1"></div>
+        <div class="con" id="con-2"></div>
+        <div class="con" id="con-3"></div>
+    </div> -->
+</body>
+</html>

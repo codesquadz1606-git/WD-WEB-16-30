@@ -1,0 +1,9 @@
+Hover Property
+--> Basically changing the state of the object .
+
+Transition Property
+--> time b/w one state to anthor state
+
+Flex Property : flex-wrap,flex-direction
+gap
+justify-content
