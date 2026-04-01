@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+
+        animation: moveBox 3s ease-in-out 1s infinite;
+    }
+
+    @keyframes moveBox {
+        0%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg);
+        }
+        25%{
+            top: 200px;
+            left: 0px;
+            transform: rotate(90deg);
+        }
+        50%{
+            top: 200px;
+            left: 200px;
+            transform: rotate(180deg);
+        }
+        75%{
+            top: 0px;
+            left: 200px;
+            transform: rotate(270deg);
+            
+        }
+        100%{
+            top: 0px;
+            left: 0px;
+            transform: rotate(360deg);
+        }
+    }
+
+    .slider{
+        width: 90%;
+        height: 550px;
+        margin: auto;
+        border-radius: 50px;
+
+        animation: slider 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes slider {
+        0%{
+            background-image:url(./assets/1.jpg);
+            background-size:cover;
+            background-position:center
+        }
+        30%{
+            background-image:url(./assets/2.jpg);
+            background-size:cover;
+            background-position:center
+        }
+        70%{
+            background-image:url(./assets/3.jpg);
+            background-size:cover;
+            background-position:center
+        }
+        100%{
+            background-image:url(./assets/4.jpg);
+            background-size:cover;
+            background-position:center
+        }
+    }
+</style>
+<body>
+    <!-- Animation -->
+     <!-- <div class="box">
+
+     </div> -->
+    <div class="slider"></div>
+</body>
+</html>
