@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box-1 {
+        text-align: center;
+        background-color: red;
+        padding: 30px;
+        display: none;
+    }
+
+    .box-2 {
+        text-align: center;
+        background-color: blue;
+        padding: 30px;
+        display: none;
+    }
+
+    .box-3 {
+        text-align: center;
+        background-color: green;
+        padding: 30px;
+        display: none;
+    }
+
+    .box-4 {
+        text-align: center;
+        background-color: yellow;
+        padding: 30px;
+        display: none;
+    }
+
+
+    @media (min-width:1500px) {
+        .box-1 {
+            display: block;
+        }
+    }
+
+    @media (min-width:1280px) and (max-width:1499px) {
+        .box-2 {
+            display: block;
+        }
+    }
+
+    @media (min-width:980px) and (max-width:1279px) {
+        .box-3 {
+            display: block;
+        }
+    }
+
+    @media (min-width:500px) and (max-width:979px) {
+        .box-4 {
+            display: block;
+        }
+    }
+
+    @media (max-width:499px) {
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
+            display: block;
+        }
+    }
+
+    .slider {
+        width: 90%;
+        height: 450px;
+        margin: auto;
+        border-radius: 50px;
+
+        animation: slider 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes slider {
+        0% {
+            background-image: url(./assets/1.jpg);
+            background-size: cover;
+            background-position: center
+        }
+
+        30% {
+            background-image: url(./assets/2.jpg);
+            background-size: cover;
+            background-position: center
+        }
+
+        70% {
+            background-image: url(./assets/3.jpg);
+            background-size: cover;
+            background-position: center
+        }
+
+        100% {
+            background-image: url(./assets/4.jpg);
+            background-size: cover;
+            background-position: center
+        }
+    }
+
+    header {
+        padding: 10px 40px;
+    }
+
+    .screen-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .screen-1 .navi ul {
+        display: flex;
+        gap: 30px;
+    }
+
+    .screen-1 .navi ul li {
+        list-style: none;
+    }
+
+    .screen-2{
+        display: none;
+    }
+
+    .screen-2 .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (max-width:1040px) {
+        .screen-2{
+            display: block;
+        }
+
+        .screen-1{
+            display: none;
+        }
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 50px;
+
+        padding: 0px 100px;
+    }
+
+    .con{
+        width: 300px;
+        height: 500px;
+        background-color: grey;
+        border: 2px solid black;
+    }
+
+    @media (max-width:873px) {
+        .con{
+            width: 500px;
+            height: 650px;
+        }
+    }
+
+    @media (min-width:874px) and (max-width:1227px) {
+        .con{
+            width: 400px;
+            height: 550px;
+        }
+    }
+</style>
+
+<body>
+    <!-- Responsive Code 
+        > 1500px : TV & 15.6 inch laptop
+        1280px to 1499 px : 14 inch laptops
+        980px to 1279px : Tablet View
+        500px to 979px : Mobile Phone View 
+    -->
+
+    <!-- <div class="box-1">This is Box 1</div>
+    <div class="box-2">This is Box 2</div>
+    <div class="box-3">This is Box 3</div>
+    <div class="box-4">This is Box 4</div> -->
+    <header>
+        <div class="screen-1">
+            <div class="logo">
+                <h1>loop earplugs</h1>
+            </div>
+            <div class="navi">
+                <ul>
+                    <li>shop</li>
+                    <li>shop</li>
+                    <li>shop</li>
+                    <li>shop</li>
+                    <li>shop</li>
+                </ul>
+            </div>
+            <div class="btns">
+                <button>Country</button>
+                <button>Account</button>
+                <button>Cart</button>
+            </div>
+        </div>
+        <div class="screen-2">
+            <div class="content">
+                <div class="ham">
+                    <h1>Ham</h1>
+                </div>
+                <div class="logo">
+                    <h1>loop earplugs</h1>
+                </div>
+                <div class="btns">
+                    <button>Country</button>
+                    <button>Account</button>
+                    <button>Cart</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slider"></div>
+    <div class="container">
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+        <div class="con"></div>
+    </div>
+</body>
+
+</html>
