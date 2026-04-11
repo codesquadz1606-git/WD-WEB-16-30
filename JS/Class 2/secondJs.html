@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // Chapter 2 : Template Literal , Operators
+        
+        // What is Template Literal?
+        // It means writing statement & operation together.
+
+        // console.log("My name is Shubham. I scored",45+45,"marks in exam.");
+
+        // Template Literal : ${} it is used for operation & ``is used for statment
+        // console.log(`My name is Shubham. I scored ${45+45} marks in exam.`)
+
+        // What is operators?
+        // It means operation b/w two or more operands.
+        // Type of operators:
+        // 1. Arthmetic Operator : +,-,*,/,%,**
+        // console.log(10+3)
+        // console.log(10-3)
+        // console.log(10*3)
+        // console.log(10/3) // Quotient
+        // console.log(10%3) // Remainder
+        // console.log(10**3)
+
+        // 2. Relational Operator :<,>,<=,>=,==,!=,===
+        // console.log(10<3)
+        // console.log(10>3)
+        // console.log(10>=3)
+        // console.log(10<=3)
+        // console.log(10==3)
+        // console.log(10!=3)
+
+        // Diffrence b/w == & ===?
+        // console.log(10=="10") // it only sees the value not data-type.
+        // console.log(10==="10") // whereas it matches the data-type as well as value.
+
+        // 3. Logical Operator : && , || , !
+        // && operator
+        // I    II      R
+        // T    T       T
+        // T    F       F
+        // F    T       F
+        // F    F       F
+        // Conclusion : If any condition is false , then entire operation is false.
+        // console.log(10>3 && 45<35)
+        
+        // || operator
+        // I    II      R
+        // T    T       T
+        // T    F       T
+        // F    T       T
+        // F    F       F
+        // Conclusion : if single condition is true , then entire operation is true.
+        // console.log(10>3 || 45<35)
+        
+        // ! Operator : Switch
+        // True -> False
+        // False -> True
+        // console.log(!(10>3 || 45<35))
+
+        // 4. Unary Operator : ++ , --
+        // post & pre
+
+        // post
+        // let a=10;
+        // let b=a++; // first assign , the increment
+        // let b=a--
+
+        // Pre
+        // let b=++a // first increement , then assign
+        // let b=--a;
+
+        // console.log(b)
+        // console.log(a)
+
+        // 5. Assignment Operator : = ,+=,-=,*=,/=,%=,**=
+        // let a=10;
+        // a+=10;//a=a+10
+        // console.log(a)
+        // a-=15
+        // console.log(a)
+        // a*=5
+        // console.log(a)
+        // a/=9
+        // console.log(a)
+        // a%=3
+        // console.log(a)
+        // a**=4
+        // console.log(a)
+
+        // 6. Ternary Operator : Based on conditions.
+        // (condition)?Statement 1 (if true) : Statement 2 (if false)
+
+        let age=18;
+        (age>=19)?console.log("Eligible"):console.log("Not Eligible");
+    </script>
+</body>
+</html>

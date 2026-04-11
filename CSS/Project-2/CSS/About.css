@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trispace", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Header Section */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+.navigation ul li a:hover{
+    color: blue;
+}
+
+/* Main Section Styling */
+main{
+    display: flex;
+}
+
+.left{
+    width: 38%;
+    height: 800px;
+    background-color: #E6DACE;
+}
+
+.profile-box{
+    width: 390px;
+    height: 450px;
+    background-color: #F4ECE6;
+    margin-top: 120px;
+    margin-left: 190px;
+    z-index: 111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-box{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.line{
+    width: 30%;
+    height: 2px;
+    background-color: blue;
+}
+
+.job-profile{
+    letter-spacing: 10px;
+}
+
+.icon-box{
+    width: 390px;
+    height: 50px;
+    background-color: white;
+    margin-left: 190px;
+}
+
+.icon-images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.icon-images img{
+    width: 20px;
+}
+
+.right{
+    width: 62%;
+    height: 800px;
+    background-color: white;
+    z-index: -1;
+}
+
+/* Footer Section Styling */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.l-footer{
+    width: 25%;
+}
+
+.r-footer{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+.r-footer .call,.write,.follow{
+    text-align: center;
+}
+
+.footer-images img{
+    width: 10px;
+}
+
